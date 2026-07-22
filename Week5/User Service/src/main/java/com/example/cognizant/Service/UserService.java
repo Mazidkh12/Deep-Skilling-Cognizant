@@ -9,9 +9,12 @@ import java.util.List;
 
 @Service
 public class UserService {
+    UserRepository repo;
 
     @Autowired
-    UserRepository repo;
+    public UserService(UserRepository repo) {
+        this.repo = repo;
+    }
 
     public List<User> getAllUsers() {
         return repo.findAll();
