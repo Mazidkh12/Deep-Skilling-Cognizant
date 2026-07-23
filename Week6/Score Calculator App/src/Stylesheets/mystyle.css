@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formstyle {
+  width: 420px;
+  margin: 60px auto;
+  padding: 25px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.formstyle h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.Name,
+.School,
+.Total,
+.Score {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.Name span:last-child,
+.School span:last-child,
+.Total span:last-child,
+.Score span {
+  color: #0066cc;
+  font-weight: bold;
+}
+
+b {
+  color: #333;
+}
